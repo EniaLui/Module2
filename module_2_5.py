@@ -5,7 +5,6 @@ def get_matrix (n, m, value):
         matrixdop.append(value)
         for j in range(0, int(m)):
             matrix.append(matrixdop)
-    print(matrix)
 
 result1 = get_matrix(2, 2, 10)
 result2 = get_matrix(3, 5, 42)
