@@ -1,10 +1,11 @@
 def get_matrix (n, m, value):
     matrix = []
     matrixdop = []
-    for i in (0, int(n)):
+    for i in range (int(m)):
         matrixdop.append(value)
-        for j in range(0, int(m)):
+    for j in range (int(n)):
             matrix.append(matrixdop)
+    return matrix
 
 result1 = get_matrix(2, 2, 10)
 result2 = get_matrix(3, 5, 42)
