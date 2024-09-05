@@ -4,7 +4,7 @@ def get_matrix (n, m, value):
     for i in range (int(m)):
         matrixdop.append(value)
     for j in range (int(n)):
-            matrix.append(matrixdop)
+        matrix.append(matrixdop)
     return matrix
 
 result1 = get_matrix(2, 2, 10)
